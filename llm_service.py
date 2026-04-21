@@ -12,6 +12,7 @@ import jwt
 import importlib
 import base64
 
+# Testing
 def get_profile(requesting_user_id: int, target_user_id: int) -> dict:
     conn = sqlite3.connect("app.db")
     cursor = conn.cursor()
